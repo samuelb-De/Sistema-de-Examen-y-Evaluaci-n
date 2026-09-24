@@ -1,0 +1,191 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+/* ========================================================== */
+/* DARK MODE / HIGH CONTRAST THEME STYLES                     */
+/* ========================================================== */
+
+html.dark body {
+  background-color: #0b0f17;
+  color: #f1f5f9;
+}
+
+/* Base background overrides */
+html.dark .bg-slate-100,
+html.dark .bg-slate-50,
+html.dark .bg-zinc-50,
+html.dark .bg-gray-50,
+html.dark .bg-gray-100,
+html.dark .bg-\[\#F6F4FA\] {
+  background-color: #0b0f17 !important;
+}
+
+/* Card & Modal surfaces */
+html.dark .bg-white {
+  background-color: #131b28 !important;
+  color: #f1f5f9 !important;
+}
+
+/* Nested elements & secondary panels */
+html.dark .bg-slate-50,
+html.dark .bg-slate-100\/80,
+html.dark .bg-slate-100\/50,
+html.dark .bg-slate-200\/60 {
+  background-color: #182232 !important;
+}
+
+html.dark .bg-slate-200 {
+  background-color: #1f2b3e !important;
+}
+
+html.dark .bg-slate-300 {
+  background-color: #2a3a52 !important;
+}
+
+/* Hover states */
+html.dark .hover\:bg-slate-50:hover,
+html.dark .hover\:bg-slate-100:hover {
+  background-color: #1c2738 !important;
+}
+
+html.dark .hover\:bg-slate-200:hover {
+  background-color: #27354a !important;
+}
+
+/* Text color contrast */
+html.dark .text-slate-900,
+html.dark .text-slate-800,
+html.dark .text-gray-900,
+html.dark .text-gray-800 {
+  color: #f8fafc !important;
+}
+
+html.dark .text-slate-700,
+html.dark .text-gray-700 {
+  color: #cbd5e1 !important;
+}
+
+html.dark .text-slate-600,
+html.dark .text-slate-500,
+html.dark .text-gray-600,
+html.dark .text-gray-500 {
+  color: #94a3b8 !important;
+}
+
+html.dark .text-slate-400 {
+  color: #64748b !important;
+}
+
+/* Borders & Dividers */
+html.dark .border-slate-200,
+html.dark .border-slate-300,
+html.dark .border-slate-100,
+html.dark .border-gray-200,
+html.dark .border-gray-300 {
+  border-color: #222f42 !important;
+}
+
+html.dark .divide-slate-200 > :not([hidden]) ~ :not([hidden]),
+html.dark .divide-slate-100 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #222f42 !important;
+}
+
+/* Form Inputs, Textarea, Select */
+html.dark input:not([type="checkbox"]):not([type="radio"]):not([type="color"]),
+html.dark textarea,
+html.dark select {
+  background-color: #0b0f17 !important;
+  color: #f8fafc !important;
+  border-color: #2b394e !important;
+}
+
+html.dark input:not([type="checkbox"]):not([type="radio"]):focus,
+html.dark textarea:focus,
+html.dark select:focus {
+  border-color: #00cf00 !important;
+  outline: none !important;
+}
+
+/* Green SENA Badges and accents on dark mode */
+html.dark .bg-emerald-50,
+html.dark .bg-emerald-50\/70 {
+  background-color: #064e3b\/30 !important;
+  border-color: #047857 !important;
+  color: #6ee7b7 !important;
+}
+
+html.dark .text-\[\#008800\] {
+  color: #22c55e !important;
+}
+
+html.dark .text-emerald-900,
+html.dark .text-emerald-950,
+html.dark .text-emerald-800 {
+  color: #a7f3d0 !important;
+}
+
+html.dark .border-emerald-200 {
+  border-color: #047857 !important;
+}
+
+/* Other alert and status boxes */
+html.dark .bg-amber-50 {
+  background-color: #78350f\/25 !important;
+  border-color: #92400e !important;
+  color: #fde68a !important;
+}
+
+html.dark .bg-red-50 {
+  background-color: #7f1d1d\/25 !important;
+  border-color: #991b1b !important;
+  color: #fca5a5 !important;
+}
+
+html.dark .bg-blue-50,
+html.dark .bg-indigo-50 {
+  background-color: #1e3a8a\/25 !important;
+  border-color: #1d4ed8 !important;
+  color: #bfdbfe !important;
+}
+
+/* Domino Pieces: Keep them crisp white/ivory with high contrast dots */
+html.dark button:has(.rounded-full.bg-slate-900),
+html.dark div:has(> .rounded-full.bg-slate-900) {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+}
+
+html.dark .select-none:has(.rounded-full.bg-slate-900) {
+  background-color: #ffffff !important;
+}
+
+/* Question option hover/selection */
+html.dark .hover\:bg-emerald-50:hover {
+  background-color: #064e3b\/30 !important;
+}
+
+/* Custom scrollbars */
+html.dark ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+html.dark ::-webkit-scrollbar-track {
+  background: #0b0f17;
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+  background: #27354a;
+  border-radius: 4px;
+}
+
+html.dark ::-webkit-scrollbar-thumb:hover {
+  background: #33435c;
+}

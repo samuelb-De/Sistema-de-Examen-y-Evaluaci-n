@@ -1,0 +1,78 @@
+[
+  {
+    "id": "cand-demo-1",
+    "fullName": "Laura Sofía Restrepo",
+    "documentId": "1023456789",
+    "email": "laura.restrepo@example.com",
+    "groupAssigned": "Grupo A",
+    "scores": {
+      "totalScore": 27,
+      "totalMax": 30,
+      "percentage": 90,
+      "dominoScore": 9,
+      "dominoMax": 10,
+      "mathScore": 9,
+      "mathMax": 10,
+      "readingScore": 9,
+      "readingMax": 10,
+      "psychoSummary": {
+        "dominantLearning": "Visual",
+        "learningScores": {
+          "Visual": 6,
+          "Auditivo": 2,
+          "Kinestésico": 2
+        },
+        "dominantManagement": "Ágil",
+        "managementScores": {
+          "Ágil": 7,
+          "Tradicional": 1,
+          "Híbrida": 2
+        },
+        "recommendedRole": "Desarrollador Frontend & UX/UI Ágil",
+        "roleDescription": "Destaca por captar requerimientos visuales rápidamente y diseñar experiencias intuitivas en ciclos cortos de sprint."
+      }
+    },
+    "answers": {},
+    "completedAt": "2026-09-08T14:32:00.000Z",
+    "timeSpentSeconds": 1120,
+    "timedOut": false
+  },
+  {
+    "id": "cand-demo-2",
+    "fullName": "Juan David Morales",
+    "documentId": "1087654321",
+    "email": "juan.morales@example.com",
+    "groupAssigned": "Grupo B",
+    "scores": {
+      "totalScore": 21,
+      "totalMax": 30,
+      "percentage": 70,
+      "dominoScore": 7,
+      "dominoMax": 10,
+      "mathScore": 6,
+      "mathMax": 10,
+      "readingScore": 8,
+      "readingMax": 10,
+      "psychoSummary": {
+        "dominantLearning": "Kinestésico",
+        "learningScores": {
+          "Visual": 3,
+          "Auditivo": 2,
+          "Kinestésico": 5
+        },
+        "dominantManagement": "Híbrida",
+        "managementScores": {
+          "Ágil": 4,
+          "Tradicional": 2,
+          "Híbrida": 4
+        },
+        "recommendedRole": "Líder Técnico de Proyecto Híbrido",
+        "roleDescription": "Capacidad para combinar la disciplina de la planificación con la flexibilidad de entregas iterativas continuas."
+      }
+    },
+    "answers": {},
+    "completedAt": "2026-09-08T16:15:00.000Z",
+    "timeSpentSeconds": 1350,
+    "timedOut": false
+  }
+]

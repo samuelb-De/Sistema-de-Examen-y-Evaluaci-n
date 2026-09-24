@@ -1,0 +1,6 @@
+{
+  "name": "ADSO Selector - Sistema de Examen y Evaluación",
+  "description": "Plataforma de selección y automatización de pruebas para ADSO con lógica de dominó, matemáticas, comprensión lectora, psicotécnico, grupos A/B/C y exportación Python.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
